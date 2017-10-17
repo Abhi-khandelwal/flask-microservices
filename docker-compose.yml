@@ -9,6 +9,6 @@ services:
       - '.:/usr/src/app'
     ports:
       - 5001:5000 # expose ports - HOST:CONTAINER
-    enviornment:
-      - APP _SETTINGS=project.config.DevelopmentConfig
+    environment:
+      - APP_SETTINGS=project.config.DevelopmentConfig
 
