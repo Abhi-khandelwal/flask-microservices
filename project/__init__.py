@@ -1,4 +1,3 @@
-
 import os
 from flask import Flask , jsonify
 
@@ -15,4 +14,3 @@ def ping_pong():
 	'status' : 'success',
 	'message' : 'pong!'
 	})
-	
